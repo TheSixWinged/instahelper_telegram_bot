@@ -1,0 +1,13 @@
+#AuthData
+InstaHelper/AuthData.cs
+
+#Debug and Release build
+InstaHelper.Tests/bin
+InstaHelper/bin
+
+#AppConfig
+InstaHelper/App.config
+
+#DataBase
+InstaHelper/UsersDB.mdf
+InstaHelper/UsersDB_log.ldf

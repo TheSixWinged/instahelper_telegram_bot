@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>InstaHelper</id>
+    <version>1.0.0</version>
+    <authors>InstaHelper</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="MySql.Data" version="8.0.26" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver" version="3.141.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver.ChromeDriver" version="93.0.4577.1500" exclude="Build,Analyzers" />
+        <dependency id="System.Configuration.ConfigurationManager" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+        <dependency id="Telegram.Bot" version="16.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Work\InstaHelper\InstaHelper\bin\Debug\netcoreapp3.1\InstaHelper.runtimeconfig.json" target="lib\netcoreapp3.1\InstaHelper.runtimeconfig.json" />
+    <file src="D:\Work\InstaHelper\InstaHelper\bin\Debug\netcoreapp3.1\InstaHelper.dll" target="lib\netcoreapp3.1\InstaHelper.dll" />
+  </files>
+</package>
