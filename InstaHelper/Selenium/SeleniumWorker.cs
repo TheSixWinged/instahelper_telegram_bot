@@ -155,7 +155,7 @@ namespace InstaHelper.Selenium
                 followers = driver.FindElements(By.XPath("//li[@class='wo9IH']//div[@class='enpQJ']//a")).ToList();
                 int countFollowers = 0;
 
-                while (countFollowers != followers.Count && followers.Count < 2000)
+                while (countFollowers != followers.Count && followers.Count < 1000)
                 {
                     countFollowers = followers.Count;
 
@@ -321,7 +321,7 @@ namespace InstaHelper.Selenium
 
             bool trigger = false;
 
-            while (countFollowings != followings.Count && followings.Count < 2000)
+            while (countFollowings != followings.Count && followings.Count < 1000)
             {
                 countFollowings = followings.Count;
 

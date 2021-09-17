@@ -6,10 +6,6 @@ namespace InstaHelper
 {
     class Program
     {
-        //TODO: redmi.md on github
-
-        //TODO: gitignore app.config and AuthData
-
         static void Main(string[] args)
         {
             using (BotWorker worker = new BotWorker())
